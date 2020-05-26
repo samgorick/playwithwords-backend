@@ -1,0 +1,2 @@
+class LetterListsController < ApplicationController
+end
