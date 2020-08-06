@@ -1,24 +1,19 @@
-# README
+# Play With Words
+Fun and addictive word game - create as many valid words as you can in 2 minutes! I built this project to learn more about game development, animations and validation.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Live demo](https://play-with-words-samgorick.netlify.app/)
 
-Things you may want to cover:
+## Features
+- Play a new game with random letters, challenge a global highscore (using the same letters) or replay one of your previous games
+- Guesses are validated based on (1) valid word in English dictionary (2) only uses unique letters in random set and (3) not previously guessed
+- Letters are highlighted for the user in real-time as they are selected
+- Audio and visual feedback based on correct/incorrect guesses
 
-* Ruby version
+## Technologies
+- Single Page Application built with vanilla Javascript and all styled with vanilla CSS
+- [GSAP 3](https://greensock.com/gsap/) Javascript library used for animations
+- Audio files stored client-side
+- Dictionary regex file used for checking valid words and stored client-side
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Any questions?
+- Contact me at samgorick.sg@gmail.com or on [LinkedIn](https://www.linkedin.com/in/sam-gorick/)
